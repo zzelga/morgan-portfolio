@@ -1,87 +1,138 @@
 /*
  * Globals
  */
- body {
-   font-family: 'Lato';
- }
-
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+body {
+  font-family: "Lato";
+  font-size: 16px;
 }
 
-
-/*
- * Base structure
- */
-
-/* body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 20px;
 }
 
-.cover-container {
-  max-width: 42em;
+.navbar-toggler .navbar-toggler-default {
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-default {
+  display: none;
+}
+.navbar-toggler .navbar-toggler-toggled {
+  display: none;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-toggled {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body > header,
+body > footer .footer {
+  background-color: #e8e1fb;
+}
+
+.intro-block {
+  background-color: #e8e1fb;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.intro-block img {
+  width: 177px;
+  height: 177px;
+}
+.intro-block h1 {
+  padding-top: 16px;
+}
+
+.disney-marvel-block .container {
+  background-color: #e1eafb;
+  border-radius: 12px;
+}
+.mean-street-tattoo-block .container {
+  background-color: #e1fbf2;
+  border-radius: 12px;
+}
+.milda-block .container {
+  background-color: #e8e1fb;
+  border-radius: 12px;
+}
+
+.cartoon-image img {
+  width: auto;
+  height: auto;
+  margin-bottom: -190px;
+  z-index: -10;
+  /* transition: margin-bottom 250ms;
+  transition-timing-function: ease; */
+}
+
+/* .cartoon-image:hover img {
+  margin-bottom: -75px;
 } */
 
-/*
- * Header
- */
-
- body > header,
- body > footer {
-   background-color: #E8E1FB;
- }
-
- .intro-block {
-   background-color: #E8E1FB;
- }
-
- .disney-marvel-block .container,
- .my-story-block .container,
- .work-experience-block .container {
-  background-color: #E1EAFB;
+.my-story-block .container,
+.work-experience-block .container {
+  background-color: #e1eafb;
   border-radius: 58px;
 }
 
-.mean-street-tattoo-block .container,
 .contact-me-block .container,
 .education-block .container {
-  background-color: #E1FBF2;
+  background-color: #e1fbf2;
   border-radius: 58px;
 }
 
-.milda-block .container,
 .skills-block .container {
-  background-color: #E8E1FB;
+  background-color: #e8e1fb;
   border-radius: 58px;
 }
 
 button.read-case-study {
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
+}
+
+.navbar-nav .nav-link {
+  padding-bottom: 0px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+.navbar-nav .nav-link.active {
+  color: black;
+  border-bottom-color: black;
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0.25rem;
+  padding: 0.25rem 0.25rem;
   font-weight: 700;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 @media (min-width: 576px) {
   .nav-masthead .nav-link {
-    padding: .25rem 1.25rem;
-  }  
+    padding: 0.25rem 1.25rem;
+  }
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(0, 0, 0, .25);
+  border-bottom-color: rgba(0, 0, 0, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -102,7 +153,7 @@ button.read-case-study {
 }
 
 .social-links a {
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
 ul.footer-list {
