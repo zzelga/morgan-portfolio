@@ -1,139 +1,273 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="h-100">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
     <title>Morgan Nebiosini - UX Designer</title>
-</head>
+  </head>
 
-<body>
-    <header class="d-flex flex-wrap justify-contents-center px-4 py-2">
-        <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="/">
-            <img class="d-block mx-lg-auto img-fluid" src="/images/morgan-leaf-icon.png"
-                alt="Morgan Nebiosini Avatar" />
-            <h3 class="float-md-start px-2 mb-0">Morgan Nebiosini</h3>
-        </a>
-
-        <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a href="/" aria-current="page" class="nav-link">Home</a>
-            <a href="#" aria-current="page" class="nav-link">Work</a>
-            <a href="/about.html" aria-current="page" class="nav-link active">About</a>
-            <a href="/resume.html" aria-current="page" class="nav-link">Resume</a>
-        </nav>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <div>
+            <a
+              class="
+                d-flex
+                align-items-center
+                me-md-auto
+                text-dark text-decoration-none
+              "
+              href="/"
+            >
+              <img
+                class="d-block"
+                src="/images/morgan-leaf-icon.png"
+                alt="Morgan Nebiosini Avatar"
+                style="height: 18px"
+              />
+              <h5 class="float-md-start px-2 mb-0">Morgan Nebiosini</h5>
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-default">
+              <i class="bi-list"></i>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <i class="bi-x"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ms-auto">
+              <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a href="/" aria-current="page" class="nav-link mx-md-1"
+                  >Home</a
+                >
+                <a
+                  href="/portfolio.html"
+                  aria-current="page"
+                  class="nav-link mx-md-1"
+                  >Work</a
+                >
+                <a
+                  href="/about.html"
+                  aria-current="page"
+                  class="nav-link mx-md-1 active"
+                  >About Me</a
+                >
+                <a
+                  href="/resume.html"
+                  aria-current="page"
+                  class="nav-link mx-md-1"
+                  >Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
+
     <main>
-        <!-- intro -->
-        <div class="px-4 py-5">
-            <div class="container px-0 px-md-4 py-5">
-                <div class="row flex-lg-row justify-content-md-center align-items-center g-5 px-3">
-                    <div class="col-12 col-sm-12 col-lg-4">
-                        <img class="d-block mx-lg-auto img-fluid" src="/images/morgan-headshot.png"
-                            alt="Morgan Nebiosini Avatar" />
-                    </div>
-                    <div class="col-lg-6">
-                        <h1 class="display-6 fw-bold lh-base mb-3">Hi, I'm Morgan</h1>
-                        <p class="lead">
-                            I got into UX/UI because of my interests in visual design, accessibility, interaction design
-                            and the desire to make a strong social impact. My career up to this point has had many
-                            twists and turns, but I've found ways to leverage all my past experiences on my journey to
-                            grow as a UX/UI Designer.
-                        </p>
-                    </div>
-                </div>
+      <!-- intro -->
+      <div class="about-block pt-4">
+        <div class="container px-4">
+          <div
+            class="row flex-lg-row justify-content-md-center align-items-center"
+          >
+            <div class="col-sm-4">
+              <img
+                class="d-block mx-auto"
+                src="/images/morgan-headshot.png"
+                alt="Morgan Nebiosini Headshot"
+              />
             </div>
-        </div>
-
-        <!-- my story so far -->
-        <div class="my-story-block px-4 py-5">
-            <div class="container px-0 px-md-4 py-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5 px-3">
-                    <div class="col-12 col-sm-12 col-lg-4">
-                        <img class="d-block mx-lg-auto img-fluid" src="/images/milda-placeholder.png"
-                            alt="Morgan Nebiosini About Me Placeholder Image" />
-                    </div>
-                    <div class="col-lg-8">
-                        <h1 class="display-6 fw-bold lh-base mb-3">My story so far...</h1>
-                        <p class="lead">
-                            While studying Cartooning & Illustration at The School of Visual Arts, I learned a lot
-                            about the general creative process and leveraged my visual thinking skills. As a teacher for
-                            young adults with developmental disabilities, I saw the impact I had on their lives through
-                            the use of accessible technologies. From my time as a makeup artist, I developed my ability
-                            to translate an individual's wants into visually appealing results. Several years spent
-                            playing roller derby taught me about the value of dedication, determination, and teamwork.
-                        </p>
-                        <p class="lead">
-                            In my free time, you can find me sitting in a cozy chair with a cup of tea working on my
-                            sewing or cross-stitching. I enjoy drawing and attending to my numerous house plants.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-sm-8">
+              <h1 class="text-start">Hi, I'm Morgan</h1>
+              <h4 class="text-start">
+                I got into UX/UI because of my interests in visual design,
+                accessibility, interaction design and the desire to make a
+                strong social impact. My career up to this point has had many
+                twists and turns, but I've found ways to leverage all my past
+                experiences on my journey to grow as a UX/UI Designer.
+              </h4>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- contact me -->
-        <div class="contact-me-block px-4 py-5">
-            <div class="container px-0 px-md-4 py-5 d-flex flex-column align-items-center">
-
-                <h1 class="display-6 fw-bold lh-base mb-3">Contact Me</h1>
-                <p class="lead">
-                    Looking forward to hearing from you!
-                </p>
-                <button class="btn text-light read-case-study">Email me</button>
-
+      <!-- my story so far -->
+      <div class="my-story-block px-2 pt-4 pt-sm-5">
+        <div class="container px-2 px-md-4 py-4">
+          <div class="row flex-lg-row align-items-center px-2">
+            <div class="col">
+              <h2 class="text-start">My story so far...</h2>
+              <h5 class="text-start">
+                While studying Cartooning & Illustration at The School of Visual
+                Arts, I learned a lot about the general creative process and
+                leveraged my visual thinking skills. As a teacher for young
+                adults with developmental disabilities, I saw the impact I had
+                on their lives through the use of accessible technologies. From
+                my time as a makeup artist, I developed my ability to translate
+                an individual's wants into visually appealing results. Several
+                years spent playing roller derby taught me about the value of
+                dedication, determination, and teamwork.
+              </h5>
+              <h5 class="text-start">
+                In my free time, you can find me sitting in a cozy chair with a
+                cup of tea working on my sewing or cross-stitching. I enjoy
+                drawing and attending to my numerous house plants.
+              </h5>
             </div>
+          </div>
         </div>
+      </div>
 
+      <!-- contact me -->
+      <div class="contact-me-block px-2 py-4">
+        <div class="container px-0 px-md-4 py-4">
+          <div class="row flex-lg-row align-items-center px-2">
+            <div
+              class="
+                col
+                d-flex
+                flex-column
+                align-items-center align-items-lg-start
+              "
+            >
+              <h2 class="text-start">Contact Me</h2>
+              <h5 class="text-start">Looking forward to hearing from you!</h5>
+              <a
+                href="mailto:morgan.nebiosini@gmail.com"
+                role="button"
+                class="btn btn-primary fs-4 read-case-study fw-bold"
+                >Email me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer>
-        <div class="container px-0 px-md-4 py-5">
-            <div class="row">
-                <div class="col-md-3 d-flex flex-column justify-content-evenly">
-                    <div>Let's Connect: <a href="mailto:morgan.nebiosini@gmail.com">morgan.nebiosini@gmail.com</a></div>
-                    <div>
-                        Designed by me :)<br />
-                        Coded by <a href="https://zzelga.github.io">Z Zelga</a>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex justify-content-evenly align-items-center social-links">
-                    <a href="https://www.linkedin.com/in/morgannebiosini/" target="_blank">
-                        <i class=" bi bi-linkedin"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-
-                    <a href="https://www.twitter.com/" target="_blank">
-                        <i class="bi bi-twitter"></i>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <ul class="footer-list">
-                        <li>Disney+ Marvel</li>
-                        <li>Mean Street Tattoo</li>
-                        <li>Milda</li>
-                        <li>About Me</li>
-                        <li>Resume</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="cartoon-image row justify-content-start">
+          <img
+            class="d-block"
+            src="/images/morgan-cartoon.png"
+            alt="Morgan Nebiosini Cartoon Thanks For Stopping By"
+          />
         </div>
+      </div>
+      <div class="footer container-fluid px-3 px-md-4 py-3 py-md-5">
+        <div class="row">
+          <div class="col-md-3 d-flex flex-column justify-content-evenly">
+            <div>
+              <p>
+                Let's Connect:<br />
+                <a href="mailto:morgan.nebiosini@gmail.com"
+                  >Morgan.Nebiosini@gmail.com</a
+                >
+              </p>
+            </div>
+            <div>
+              <p>
+                Designed by me :)<br />
+                Coded by <a href="https://zzelga.github.io">Z Zelga</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="
+              col-md-6
+              d-flex
+              justify-content-start justify-content-md-evenly
+              align-items-center
+              social-links
+            "
+          >
+            <a
+              href="https://www.linkedin.com/in/morgannebiosini/"
+              target="_blank"
+            >
+              <img
+                class="d-block"
+                src="/images/linkedin.png"
+                alt="Morgan Nebiosini on LinkedIn'"
+              />
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                class="d-block"
+                src="/images/instagram.png"
+                alt="Morgan Nebiosini on Instagram'"
+              />
+            </a>
+
+            <a href="https://www.twitter.com/" target="_blank">
+              <img
+                class="d-block"
+                src="/images/twitter.png"
+                alt="Morgan Nebiosini on Twitter'"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <ul class="footer-list">
+              <li>
+                <a href="/disney_marvel.html" aria-current="page"
+                  >Disney+ Marvel</a
+                >
+              </li>
+              <li>
+                <a href="/mean_street_tattoo.html" aria-current="page"
+                  >Mean Street Tattoo</a
+                >
+              </li>
+              <li><a href="/milda.html" aria-current="page">Milda</a></li>
+              <li><a href="/about.html" aria-current="page">About Me</a></li>
+              <li>
+                <a href="/resume.html" aria-current="page">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

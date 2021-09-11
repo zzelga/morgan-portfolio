@@ -2,7 +2,7 @@
  * Globals
  */
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
@@ -55,18 +55,25 @@ body > footer .footer {
   padding-top: 32px;
   padding-bottom: 40px;
 }
-.intro-block img {
+.intro-block img,
+.about-block img {
   width: 156px;
   height: 156px;
 }
+.about-block img {
+  border-radius: 5rem !important;
+  border: 2px solid #5d08c8;
+}
 @media (min-width: 576px) {
-  .intro-block img {
+  .intro-block img,
+  .about-block img {
     width: 100%;
     height: auto;
   }
 }
 @media (min-width: 768px) {
-  .intro-block img {
+  .intro-block img,
+  .about-block img {
     width: 156px;
     height: 156px;
   }
@@ -107,27 +114,29 @@ body > footer .footer {
 .my-story-block .container,
 .work-experience-block .container {
   background-color: #e1eafb;
-  border-radius: 58px;
+  border-radius: 12px;
 }
 
 .contact-me-block .container,
 .education-block .container {
   background-color: #e1fbf2;
-  border-radius: 58px;
+  border-radius: 12px;
 }
 
 .skills-block .container {
   background-color: #e8e1fb;
-  border-radius: 58px;
+  border-radius: 12px;
 }
 
-button.read-case-study {
+.read-case-study {
   background-color: #4a4a4a;
+  border-color: #4a4a4a;
   padding: 6px 48px;
 }
-button.read-case-study:hover,
-button.read-case-study:focus {
+.read-case-study:hover,
+.read-case-study:focus {
   background-color: #5d08c8;
+  border-color: #5d08c8;
   color: #e8e1fb !important;
 }
 
