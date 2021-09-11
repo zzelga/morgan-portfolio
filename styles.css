@@ -60,10 +60,6 @@ body > footer .footer {
   width: 156px;
   height: 156px;
 }
-.about-block img {
-  border-radius: 5rem !important;
-  border: 2px solid #5d08c8;
-}
 @media (min-width: 576px) {
   .intro-block img,
   .about-block img {
@@ -86,21 +82,21 @@ body > footer .footer {
   background-color: #e1eafb;
   border-radius: 12px;
 }
-.disney-marvel-block .container button.read-case-study {
+.disney-marvel-block .container a.read-case-study {
   color: #e1eafb;
 }
 .mean-street-tattoo-block .container {
   background-color: #e1fbf2;
   border-radius: 12px;
 }
-.mean-street-tattoo-block .container button.read-case-study {
+.mean-street-tattoo-block .container a.read-case-study {
   color: #e1fbf2;
 }
 .milda-block .container {
   background-color: #e8e1fb;
   border-radius: 12px;
 }
-.milda-block .container button.read-case-study {
+.milda-block .container a.read-case-study {
   color: #e8e1fb;
 }
 
@@ -111,7 +107,10 @@ body > footer .footer {
   z-index: -10;
 }
 
-.my-story-block .container,
+.my-story-block .container div.row div {
+  background-color: #e1eafb;
+  border-radius: 12px;
+}
 .work-experience-block .container {
   background-color: #e1eafb;
   border-radius: 12px;
