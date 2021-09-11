@@ -51,6 +51,12 @@ body > footer .footer {
   width: 177px;
   height: 177px;
 }
+@media (min-width: 576px) {
+  .intro-block img {
+    width: 100%;
+    height: auto;
+  }
+}
 .intro-block h1 {
   padding-top: 16px;
 }
@@ -103,6 +109,7 @@ body > footer .footer {
 
 button.read-case-study {
   background-color: #4a4a4a;
+  padding: 6px 48px;
 }
 button.read-case-study:hover,
 button.read-case-study:focus {
