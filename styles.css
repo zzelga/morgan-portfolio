@@ -59,27 +59,30 @@ body > footer .footer {
   background-color: #e1eafb;
   border-radius: 12px;
 }
+.disney-marvel-block .container button.read-case-study {
+  color: #e1eafb;
+}
 .mean-street-tattoo-block .container {
   background-color: #e1fbf2;
   border-radius: 12px;
+}
+.mean-street-tattoo-block .container button.read-case-study {
+  color: #e1fbf2;
 }
 .milda-block .container {
   background-color: #e8e1fb;
   border-radius: 12px;
 }
+.milda-block .container button.read-case-study {
+  color: #e8e1fb;
+}
 
 .cartoon-image img {
   width: auto;
   height: auto;
-  margin-bottom: -190px;
-  z-index: -10;
-  /* transition: margin-bottom 250ms;
-  transition-timing-function: ease; */
-}
-
-/* .cartoon-image:hover img {
   margin-bottom: -75px;
-} */
+  z-index: -10;
+}
 
 .my-story-block .container,
 .work-experience-block .container {
@@ -101,6 +104,11 @@ body > footer .footer {
 button.read-case-study {
   background-color: #4a4a4a;
 }
+button.read-case-study:hover,
+button.read-case-study:focus {
+  background-color: #5d08c8;
+  color: #e8e1fb !important;
+}
 
 .navbar-nav .nav-link {
   padding-bottom: 0px;
@@ -110,6 +118,7 @@ button.read-case-study {
   color: rgba(0, 0, 0, 0.5);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
+  width: max-content;
 }
 .navbar-nav .nav-link.active {
   color: black;
@@ -154,11 +163,20 @@ button.read-case-study {
 
 .social-links a {
   color: #4a4a4a;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.social-links a:first-child {
+  padding-left: 0;
+}
+.social-links a:last-child {
+  padding-right: 0;
 }
 
 ul.footer-list {
   padding-left: 0;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .footer-list li {
