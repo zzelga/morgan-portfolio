@@ -45,8 +45,13 @@ a:focus {
   display: flex;
 }
 
-body > header,
-body > footer .footer {
+#home {
+  background-color: #e8e1fb;
+}
+#disney-marvel-header {
+  background-color: #e1eafb;
+}
+footer .footer {
   background-color: #e8e1fb;
 }
 
@@ -76,6 +81,19 @@ body > footer .footer {
 }
 .intro-block h1 {
   padding-top: 16px;
+}
+
+#disney-marvel-main .header-block {
+  background-color: #e1eafb;
+}
+#disney-marvel-main h1 {
+  color: #0026ec;
+}
+.disney-marvel-scope-block .container {
+  border: 2px solid black;
+  border-radius: 12px;
+}
+.disney-marvel-research-block {
 }
 
 .disney-marvel-block .container {
