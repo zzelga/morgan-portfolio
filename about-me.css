@@ -1,0 +1,30 @@
+#about-me header {
+  background-color: #e8e1fb;
+}
+
+.about-block img {
+  width: 156px;
+  height: 156px;
+}
+@media (min-width: 576px) {
+  .about-block img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .about-block img {
+    width: 156px;
+    height: 156px;
+  }
+}
+
+.my-story-block .container div.row div {
+  background-color: #e1eafb;
+  border-radius: 12px;
+}
+
+.contact-me-block .container div.row div {
+  background-color: #e1fbf2;
+  border-radius: 12px;
+}

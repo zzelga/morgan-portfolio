@@ -7,21 +7,18 @@
   padding-top: 32px;
   padding-bottom: 40px;
 }
-.intro-block img,
-.about-block img {
+.intro-block im {
   width: 156px;
   height: 156px;
 }
 @media (min-width: 576px) {
-  .intro-block img,
-  .about-block img {
+  .intro-block img {
     width: 100%;
     height: auto;
   }
 }
 @media (min-width: 768px) {
-  .intro-block img,
-  .about-block img {
+  .intro-block img {
     width: 156px;
     height: 156px;
   }
@@ -52,16 +49,11 @@
   color: #e8e1fb;
 }
 
-.my-story-block .container div.row div {
-  background-color: #e1eafb;
-  border-radius: 12px;
-}
 .work-experience-block .container {
   background-color: #e1eafb;
   border-radius: 12px;
 }
 
-.contact-me-block .container,
 .education-block .container {
   background-color: #e1fbf2;
   border-radius: 12px;
