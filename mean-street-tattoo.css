@@ -1,0 +1,42 @@
+#mean-street-tattoo header {
+  background-color: #e1fbf2;
+}
+
+#cover {
+  background-color: #e1fbf2;
+}
+
+#scope .container {
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+#research {
+  background-color: #21211d;
+  color: white;
+}
+
+#research h2 {
+  color: #dbbb6b;
+}
+
+#looking-at-the-analytics {
+  background-color: black;
+  border-radius: 12px;
+  border: 2px solid #dbbb6b;
+}
+
+#looking-at-the-analytics hr,
+#power-of-instagram hr,
+#validate hr,
+#define hr,
+#design hr {
+  background-color: #dbbb6b;
+  height: 2px;
+  opacity: 1;
+}
+
+#ui-kit {
+  border-radius: 12px;
+  border: 2px solid #dbbb6b;
+}

@@ -41,26 +41,3 @@
   background-color: #21242c;
   color: white;
 }
-
-#final-design {
-  background-color: black;
-  color: white;
-}
-
-.view-prototype {
-  background-color: #262831;
-  border-color: #4a4a4a;
-  padding: 6px 48px;
-}
-a#final-prototype {
-  display: block;
-  height: 0;
-}
-.jump-to-prototype:hover,
-.jump-to-prototype:focus,
-.view-prototype:hover,
-.view-prototype:focus {
-  background-color: #5d08c8;
-  border-color: #5d08c8;
-  color: #e8e1fb !important;
-}
