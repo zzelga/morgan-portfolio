@@ -1,0 +1,66 @@
+#disney-marvel header {
+  background-color: #e1eafb;
+}
+
+#cover {
+  background-color: #e1eafb;
+}
+
+#cover h1 {
+  color: #0026ec;
+}
+
+#scope .container {
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+#research {
+  background-color: black;
+  color: white;
+}
+
+#market-research {
+  background-color: #262831;
+  border-radius: 12px;
+  border: 2px solid #444;
+}
+
+#user-interviews {
+}
+
+#user-personas {
+}
+
+#define h2,
+#define h3 {
+  color: #0026ec;
+}
+
+#design {
+  background-color: #21242c;
+  color: white;
+}
+
+#final-design {
+  background-color: black;
+  color: white;
+}
+
+.view-prototype {
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+  padding: 6px 48px;
+}
+a#final-prototype {
+  display: block;
+  height: 0;
+}
+.jump-to-prototype:hover,
+.jump-to-prototype:focus,
+.view-prototype:hover,
+.view-prototype:focus {
+  background-color: #5d08c8;
+  border-color: #5d08c8;
+  color: #e8e1fb !important;
+}

@@ -1,305 +1,596 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link href="styles.css" rel="stylesheet" />
-    <title>Morgan Nebiosini - UX Designer</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body class="d-flex flex-column h-100">
-    <header id="disney-marvel-header">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <div>
-            <a
-              class="
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link href="global.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+  <link href="disney-marvel.css" rel="stylesheet" />
+  <title>Morgan Nebiosini - UX Designer</title>
+</head>
+
+<body id="disney-marvel" class="d-flex flex-column h-100">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <div>
+          <a class="
                 d-flex
                 align-items-center
                 me-md-auto
                 text-dark text-decoration-none
-              "
-              href="/"
-            >
-              <img
-                class="d-block"
-                src="/images/morgan-leaf-icon.png"
-                alt="Morgan Nebiosini Avatar"
-                style="height: 18px"
-              />
-              <h5 class="float-md-start px-2 mb-0">Morgan Nebiosini</h5>
-            </a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-default">
-              <i class="bi-list"></i>
-            </span>
-            <span class="navbar-toggler-toggled">
-              <i class="bi-x"></i>
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="ms-auto">
-              <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a href="/" aria-current="page" class="nav-link mx-md-1 active"
-                  >Home</a
-                >
-                <a
-                  href="/portfolio.html"
-                  aria-current="page"
-                  class="nav-link mx-md-1"
-                  >Work</a
-                >
-                <a
-                  href="/about.html"
-                  aria-current="page"
-                  class="nav-link mx-md-1"
-                  >About Me</a
-                >
-                <a
-                  href="/resume.html"
-                  aria-current="page"
-                  class="nav-link mx-md-1"
-                  >Resume</a
-                >
-              </div>
+              " href="/">
+            <img class="d-block" src="/images/morgan-leaf-icon.png" alt="Morgan Nebiosini Avatar"
+              style="height: 18px" />
+            <h5 class="float-md-start px-2 mb-0">Morgan Nebiosini</h5>
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-default">
+            <i class="bi-list"></i>
+          </span>
+          <span class="navbar-toggler-toggled">
+            <i class="bi-x"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="ms-auto">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+              <a href="/" aria-current="page" class="nav-link mx-md-1">Home</a>
+              <a href="/portfolio.html" aria-current="page" class="nav-link mx-md-1">Work</a>
+              <a href="/about.html" aria-current="page" class="nav-link mx-md-1">About Me</a>
+              <a href="/resume.html" aria-current="page" class="nav-link mx-md-1">Resume</a>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main id="disney-marvel-main">
-      <div class="header-block py-4">
-        <div class="container">
-          <div
-            class="
+  <main>
+    <div id="cover" class="py-4">
+      <div class="container">
+        <div class="
               row
               flex-column-reverse flex-lg-row
               justify-content-md-center
               align-items-center
-            "
-          >
-            <div class="col-lg-8">
-              <img
-                class="d-block mx-auto img-fluid"
-                src="images/disney-marvel.png"
-                alt="Morgan Nebiosini Disney+ Marvel Case Study"
-              />
-            </div>
-            <div class="col-lg-4">
-              <h1 class="text-center text-sm-start">Disney+ and Marvel</h1>
-              <h4 class="text-center text-sm-start">
-                A design for integrating Marvel Comics into the Disney+ service
-              </h4>
-            </div>
+            ">
+          <div class="col-lg-8">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel.png"
+              alt="Morgan Nebiosini Disney+ Marvel Case Study" />
+          </div>
+          <div class="col-lg-4">
+            <h1 class="text-center text-sm-start">Disney+ and Marvel</h1>
+            <h4 class="text-center text-sm-start">
+              A design for integrating Marvel Comics into the Disney+ service
+            </h4>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="disney-marvel-scope-block px-2 py-4 py-5-sm">
-        <div class="container px-0 px-md-4 py-4">
-          <div class="row flex-lg-row align-items-center px-2">
-            <div class="col-12">
-              <h2 class="text-center">Scope and Focus</h2>
-              <h5>
-                Adding a feature to the Marvel movies collection within the
-                Disney+ app, to let users look up comics lore. This feature
-                would allow the user to learn more about specific characters.
-                It would also enable purchasing of related comic books, as
-                Marvel has a digital comics app.
-              </h5>
-            </div>
-            <div class="col-lg-6">
-              <h2>Problem</h2>
-              <h5>How to seamlessly integrate comic book information into the Disney+ app while creating a welcoming environment for girls, young women, and new comics readers?</h5>
-              <h2>Solution</h2>
-              <h5>Integrate the existing Marvel Unlimited comic book app into the Disney+ streaming service as its own category of content. Provide additional information about the characters, differentiating between their MCU and comic book representations, to increase engagement and increase comic book readership.</h5>
-            </div>
-            <div class="col-lg-6">
-              <h2>My Role</h2>
-              <h5>UX Researcher<br/>UX Designer</br>UI Designer</h5>
-              <h2>Project Duration</h2>
-              <h5>April - May 2021</h5>
-            </div>
-            <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
-              <button type="button" class="btn btn-outline-dark btn-lg">Jump to Final Prototype</button>
-            </div>
+    <div id="scope" class="px-2 py-4">
+      <div class="container px-0 px-md-4 py-4">
+        <div class="row flex-lg-row align-items-center px-2">
+          <div class="col-12">
+            <h2 class="text-center">Scope and Focus</h2>
+            <p>
+              Adding a feature to the Marvel movies collection within the
+              Disney+ app, to let users look up comics lore. This feature
+              would allow the user to learn more about specific characters.
+              It would also enable purchasing of related comic books, as
+              Marvel has a digital comics app.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <h2>Problem</h2>
+            <p>How to seamlessly integrate comic book information into the Disney+ app while creating a welcoming
+              environment for girls, young women, and new comics readers?</p>
+            <h2>Solution</h2>
+            <p>Integrate the existing Marvel Unlimited comic book app into the Disney+ streaming service as its own
+              category of content. Provide additional information about the characters, differentiating between their
+              MCU and comic book representations, to increase engagement and increase comic book readership.</p>
+          </div>
+          <div class="col-lg-6 d-flex flex-column align-self-start">
+            <h2>My Role</h2>
+            <p>UX Researcher<br />UX Designer</br>UI Designer</p>
+            <h2>Project Duration</h2>
+            <p>April - May 2021</p>
+          </div>
+          <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
+            <a href="#final-prototype" class="btn btn-outline-dark jump-to-prototype">Jump to Final Prototype</a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="disney-marvel-research-block px-2 py-4 py-5-sm">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2>Research</h2>
-              <h5>"Market research says 46.67% of comic fans are female." - Comic Beats</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2>Market Research</h2>
-              <h5>Exploring Users Behavior Online</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6">
-              <h2>Reddit</h2>
-              <ul><li>Users are flocking to Reddit while watching their favorite Marvel series to share fan theories and easter eggs. Reddit has been able to create a community for fans of the MCU.</li></ul>
-              <h2>YouTube</h2>
-              <ul><li>YouTubers have created videos where they deep dive into Marvel Content and share their knowledge on easter eggs and fan theories.</li></ul>
-              <h2>Fandom</h2>
-              <ul><li>Fandom is filled with a lot of information about Marvel comic book characters, provided in a wiki-style format that users can collaboratively edit and share information.</li></ul>
-            </div>
-            <div class="col-lg-6">
-              <h2>Comic Beats</h2>
-              <ul><li>Reported 46.67% of comic book fans are female.</li></ul>
-              <h2>Bleeding Cool</h2>
-              <ul><li>In 2019, Bleeding Cool reported 37% of comic books are bought by women.</li></ul>
-              <p>As self-reported fans of comic books, women are a growing demographic; however, purchases of comic books are still low in this group.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="disney-marvel-user-interviews-block">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h2>User Interviews</h2>
-                <h5>I met with 7 users who all identified as female, via Zoom to discuss their behaviors when consuming Disney+ and Marvel content.</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </main>
-
-    <footer class="mt-auto">
+    <div id="research" class="px-2 py-4">
       <div class="container">
-        <div class="cartoon-image row justify-content-start">
-          <img
-            class="d-block"
-            src="/images/morgan-cartoon.png"
-            alt="Morgan Nebiosini Cartoon Thanks For Stopping By"
-          />
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Research</h2>
+            <p class="text-center">"Market research says 46.67% of comic fans are female." - Comic Beats</p>
+          </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="container px-3 px-md-4 py-3 py-md-5">
+
+      <div id="market-research" class="container">
+        <div class="row">
+          <div class="col mt-4">
+            <h2 class="text-center">Market Research</h2>
+            <p class="text-center">Exploring Users Behavior Online</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Reddit</h3>
+            <ul>
+              <li>Users are flocking to Reddit while watching their favorite Marvel series to share fan theories and
+                easter eggs. Reddit has been able to create a community for fans of the MCU.</li>
+            </ul>
+            <h3>YouTube</h3>
+            <ul>
+              <li>YouTubers have created videos where they deep dive into Marvel Content and share their knowledge on
+                easter eggs and fan theories.</li>
+            </ul>
+            <h3>Fandom</h3>
+            <ul>
+              <li>Fandom is filled with a lot of information about Marvel comic book characters, provided in a
+                wiki-style format that users can collaboratively edit and share information.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h3>Comic Beats</h3>
+            <ul>
+              <li>Reported 46.67% of comic book fans are female.</li>
+            </ul>
+            <h3>Bleeding Cool</h3>
+            <ul>
+              <li>In 2019, Bleeding Cool reported 37% of comic books are bought by women.</li>
+            </ul>
+            <p>As self-reported fans of comic books, women are a growing demographic; however, purchases of comic books
+              are still low in this group.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="user-interviews" class="mt-4">
+        <div class="container">
           <div class="row">
-            <div class="col-md-3 d-flex flex-column justify-content-evenly">
-              <div>
-                <p>
-                  Let's Connect:<br />
-                  <a href="mailto:morgan.nebiosini@gmail.com"
-                    >Morgan.Nebiosini@gmail.com</a
-                  >
-                </p>
-              </div>
-              <div>
-                <p>
-                  Designed by me :)<br />
-                  Coded by <a href="https://zzelga.github.io">Z Zelga</a>
-                </p>
-              </div>
+            <div class="col">
+              <h2>User Interviews</h2>
+              <p>I met with 7 users who all identified as female, via Zoom to discuss their behaviors when consuming
+                Disney+ and Marvel content.</p>
             </div>
-            <div
-              class="
-                col-md-6
-                d-flex
-                justify-content-start justify-content-md-evenly
-                align-items-center
-                social-links
-              "
-            >
-              <a
-                href="https://www.linkedin.com/in/morgannebiosini/"
-                target="_blank"
-              >
-                <img
-                  class="d-block"
-                  src="/images/linkedin.png"
-                  alt="Morgan Nebiosini on LinkedIn'"
-                />
-              </a>
-
-              <a href="https://www.instagram.com/" target="_blank">
-                <img
-                  class="d-block"
-                  src="/images/instagram.png"
-                  alt="Morgan Nebiosini on Instagram'"
-                />
-              </a>
-
-              <a href="https://www.twitter.com/" target="_blank">
-                <img
-                  class="d-block"
-                  src="/images/twitter.png"
-                  alt="Morgan Nebiosini on Twitter'"
-                />
-              </a>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>What I was interested in learning:</h3>
+              <ul>
+                <li>Are users interested in learning about the comic book versions of Marvel's cinematic character
+                  representations?</li>
+                <li>Are users interested in reading comic books after viewing MCU films and tv series on Disney+?</li>
+              </ul>
             </div>
-            <div class="col-md-3">
-              <ul class="footer-list">
-                <li>
-                  <a href="/disney-marvel.html" aria-current="page"
-                    >Disney+ Marvel</a
-                  >
-                </li>
-                <li>
-                  <a href="/mean-street-tattoo.html" aria-current="page"
-                    >Mean Street Tattoo</a
-                  >
-                </li>
-                <li><a href="/milda.html" aria-current="page">Milda</a></li>
-                <li><a href="/about.html" aria-current="page">About Me</a></li>
-                <li>
-                  <a href="/resume.html" aria-current="page">Resume</a>
-                </li>
+            <div class="col-lg-6">
+              <h3>What I learned:</h3>
+              <ul>
+                <li>After viewing Marvel content on Disney+, users were researching comic book characters on Wikipedia
+                  and Google.</li>
+                <li>Users who read comic books spent time in online forums engaging in discussions about the cinematic
+                  content they'd watched.</li>
+                <li>Users who did not read comic books felt that comic books weren't accessible to them.</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div id="user-personas">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <hr>
+              <h2>User Personas</h2>
+              <p>After looking at the data from the user interviews, I created two different personas, Sarah and
+                Stephanie.</p>
+              <p>Sarah is new to comic books and Marvel content, while Stephanie is a comic superfan and lover of all
+                things Marvel.</p>
+              <img class="d-block mx-auto img-fluid" src="images/disney-marvel/disney-marvel-sarah-persona.png"
+                alt="Persona" />
+              <img class="d-block mx-auto img-fluid mt-4" src="images/disney-marvel/disney-marvel-stephanie-persona.png"
+                alt="Persona" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="define" class="px-2 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Define</h2>
+            <hr>
+            <h3>Sketching to Solve the User's Problem</h3>
+            <p>With the user personas of Sarah and Stephanie in mind, I began to sketch out ideas. Early on in the
+              ideation phase, I explored how users would access comics on Disney+. I also sketched out the character
+              page, as well as an Easter Egg feature embedded in the viewing experience, which I later scrapped.</p>
+            <p>Due to the time constraints and the challenge of integrating the digital comic books, I focused on
+              developing ideas around how best to provide digital comic books within Disney+.</p>
+            <p>Below are a few of the early sketches.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/wireframe-1.png" alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/wireframe-2.png" alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/wireframe-3.png" alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/wireframe-4.png" alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/wireframe-5.png" alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/wireframe-6.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Discovering the placement of the new feature</h3>
+            <p>I developed a site map and user journey to help define the feature further.</p>
+            <p>While the persona of Stephanie was likely to upgrade her account after seeing the hero image, Sarah would
+              be more likely to upgrade after viewing additional information on the character page.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/sitemap.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Lo-Fi Wireframes and concerns over spoilers</h3>
+            <p>With the site map and user journey further defined, I revised the sketches from earlier to design a set
+              of wireframes. Early in the development of the feature, it was important to lock character profiles so as
+              to not show spoilers.</p>
+            <p>Below are wireframes of how this feature would behave in the site. Views of the show WandaVision would
+              unlock individual character pages after watching specific episodes.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/lo-fi-character-wireframe.png"
+              alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/lo-fi-wanda-profile-wireframe.png"
+              alt="Persona" />
+          </div>
+          <div class="col-12 col-lg-4">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/lo-fi-wandavision-series-wireframe.png"
+              alt="Persona" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="design" class="px-2 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Design</h2>
+            <hr>
+            <h3>What If... you could read comics in Disney+?</h3>
+            <p>Disney+ currently offers a feature called Premiere Access, which is a paid upgrade within the app, that
+              grants access to newly released cinematic Disney titles. Let's explore how our personas would sign up to
+              integrate Marvel Unlimited into their Disney+ accounts in a similar fashion.</p>
+            <p>Within the Disney+ streaming service, I created a new upgrade flow. From the homepage, users would be
+              presented with a large banner advertising the Marvel Unlimited service. Clicking on that would drive them
+              to the following screen, where they could upgrade their accounts. As Marvel Unlimited is currently an app
+              with its own subscribers, users could also link their accounts at this point.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/design-1.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Easily access comics from the home page</h3>
+            <p>Disney+ subscribers that have upgraded their accounts to include Marvel Unlimited content would now be
+              able to access it through a new category on the home page.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/design-2.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Creating a new section for comic books on Disney+</h3>
+            <p>To fully integrate the Marvel Unlimited app into Disney+, a new landing page was created where users
+              could search for comics, with some listed recommendations and new additions. This is consistent with the
+              design language of the rest of the Disney+ categories.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/design-3.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Styling the comic book details page</h3>
+            <p>Once a user clicks into a comic book from the previous page, they would be presented with additional
+              information about that title. This mirrors the design language used for the individual movie detail pages.
+              The series issues tab is analogous to a listing of TV episodes.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/design-4.png" alt="Persona" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h3>Linking the movie and comic profiles</h3>
+            <p>There are often key differences between the comic book characters and Marvel's cinematic representations
+              of them. This feature allows the user to easily switch between the two profiles to compare the
+              information.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/design-video-placeholder.png"
+              alt="Persona" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="validate" class="px-2 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Validate</h2>
+            <hr>
+            <h3>Testing with our users</h3>
+            <p>I met with three users who all identified as female via Zoom with screen sharing enabled for Usability
+              Testing of the prototype.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h4>What I learned:</h4>
+            <ul>
+              <li>All users felt the sign-up page was unclear. They would like to see an additional screen where they
+                would be providing their payment information. Also, the free trial offer requires further clarity.</li>
+              <li>All users understood that Marvel Unlimited was an existing app and did not expect to see the new
+                channel within Disney+.</li>
+              <li>Two of the users wanted to click on the comic book art to start reading; however, they noticed the
+                "Read Now" button several seconds later.</li>
+              <li>All users responded positively to the comic and movie character profile feature. However, there were
+                some known issues with the magic tool in the prototyping tool Framer.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>High Priority Revisions:</h4>
+            <ul>
+              <li>Redesign the upgrade flow. The review page required additional information.</li>
+              <li>Redesign the confirmation page and look at the language regarding the new channel. Information was
+                unclear about what the user was actually upgrading in their account.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h4>Low Priority:</h4>
+            <ul>
+              <li>Update the Marvel Unlimited channel homepage to display the comic book titles alongside the cover art.
+              </li>
+              <li>Look into the "Read Now" button hierarchy.</li>
+              <li>Adjust the prototype transition between comic and movie profiles on the character detail screen.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>The Revisions I Made:</h3>
+            <ul>
+              <li>Removed the language regarding the app download; users who signed up felt that the upgrade would only
+                give them access to an external app.</li>
+              <li>Made changes to the language of the button the pricing page to indicate billing instead of confirming.
+              </li>
+              <li>Added in an additional billing details page with credit card information and more transparent details
+                regarding the free trial offer.</li>
+              <li>Removed the QR code from the completed account upgrade summary page and added in details for how the
+                user could now access the new category within Disney+.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="d-block mx-auto img-fluid" src="images/disney-marvel/validate-1.png" alt="Persona" />
+          </div>
+          <div class="col-lg-6">
+            <img class="d-block mx-auto img-fluid mt-4 mt-lg-0" src="images/disney-marvel/validate-2.png" alt="Persona" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="final-prototype">&nbsp;</a>
+    
+    <div id="final-design" class="px-2 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="mb-4">Final Design</h2>
+            <a href="#" target="_blank" class="view-prototype btn btn-primary">View Prototype In Framer</a>
+            <img class="d-block mx-auto img-fluid mt-4" src="images/disney-marvel/final-design.png" alt="Persona" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-more-work" class="py-4 py-sm-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">View More Work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mean-street-tattoo-block px-2">
+              <div class="container px-0 px-md-4 py-4">
+                <div class="row align-items-center px-2">
+                  <div class="pb-2 pb-sm-3 pb-lg-0">
+                    <img class="d-block img-fluid" src="/images/mean-street-tattoo.png"
+                      alt="Morgan Nebiosini Mean Street Tattoo Design Teaser" />
+                  </div>
+                  <div class="d-flex flex-column align-items-center">
+                    <h2 class="text-center text-md-start my-sm-3">
+                      Mean Street Tattoo
+                    </h2>
+                    <h5 class="text-center text-md-start mb-4">
+                      A responsive website design for a tattoo shop, where the artists
+                      can showcase their work and allow their clients to book
+                      appointments.
+                    </h5>
+                    <a href="/mean-street-tattoo.html" role="button"
+                      class="btn btn-primary fs-4 read-case-study fw-bold">Read Case Study</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="milda-block px-2 pt-4 pt-lg-0">
+              <div class="container px-0 px-md-4 py-4">
+                <div class="row align-items-center px-2">
+                  <div class="pb-2 pb-sm-3 pb-lg-0">
+                    <img class="d-block img-fluid" src="/images/milda.png" alt="Morgan Nebiosini Milda Placeholder" />
+                  </div>
+                  <div class="d-flex flex-column align-items-center">
+                    <h2 class="text-center text-md-start my-sm-3">Milda</h2>
+                    <h5 class="text-center text-md-start mb-4">
+                      A mobile app design for organizing cosmetic collections.
+                    </h5>
+                    <a href="/milda.html" role="button" class="btn btn-primary fs-4 read-case-study fw-bold">Read Case
+                      Study</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="mt-auto">
+    <div class="container">
+      <div class="cartoon-image row justify-content-start">
+        <img class="d-block" src="/images/morgan-cartoon.png" alt="Morgan Nebiosini Cartoon Thanks For Stopping By" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container px-3 px-md-4 py-3 py-md-5">
+        <div class="row">
+          <div class="col-md-3 d-flex flex-column justify-content-evenly">
+            <div>
+              <p>
+                Let's Connect:<br />
+                <a href="mailto:morgan.nebiosini@gmail.com">Morgan.Nebiosini@gmail.com</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                Designed by me :)<br />
+                Coded by <a href="https://zzelga.github.io">Z Zelga</a>
+              </p>
+            </div>
+          </div>
+          <div class="
+                col-md-6
+                d-flex
+                justify-content-start justify-content-md-evenly
+                align-items-center
+                social-links
+              ">
+            <a href="https://www.linkedin.com/in/morgannebiosini/" target="_blank">
+              <img class="d-block" src="/images/linkedin.png" alt="Morgan Nebiosini on LinkedIn'" />
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="d-block" src="/images/instagram.png" alt="Morgan Nebiosini on Instagram'" />
+            </a>
+
+            <a href="https://www.twitter.com/" target="_blank">
+              <img class="d-block" src="/images/twitter.png" alt="Morgan Nebiosini on Twitter'" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <ul class="footer-list">
+              <li>
+                <a href="/disney-marvel.html" aria-current="page">Disney+ Marvel</a>
+              </li>
+              <li>
+                <a href="/mean-street-tattoo.html" aria-current="page">Mean Street Tattoo</a>
+              </li>
+              <li><a href="/milda.html" aria-current="page">Milda</a></li>
+              <li><a href="/about.html" aria-current="page">About Me</a></li>
+              <li>
+                <a href="/resume.html" aria-current="page">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
