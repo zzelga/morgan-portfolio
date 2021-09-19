@@ -55,6 +55,12 @@
   color: #e8e1fb;
 }
 
+.btn {
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 0.5rem;
+}
+
 .read-case-study {
   background-color: #4a4a4a;
   border-color: #4a4a4a;
@@ -75,6 +81,9 @@
   color: white;
 }
 
+.jump-to-prototype {
+  border: 2px solid #212529;
+}
 .view-prototype {
   background-color: #262831;
   border-color: #4a4a4a;

@@ -2,17 +2,16 @@
   background-color: #e1eafb;
 }
 
+#disney-marvel .navbar.fixed-top {
+  background-color: #e1eafb;
+}
+
 #cover {
   background-color: #e1eafb;
 }
 
 #cover h1 {
   color: #0026ec;
-}
-
-#scope .container {
-  border: 2px solid black;
-  border-radius: 12px;
 }
 
 #research {
