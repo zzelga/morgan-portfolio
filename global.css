@@ -5,6 +5,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   color: black;
+  margin-top: 45px;
 }
 
 h1 {
@@ -62,6 +63,9 @@ a:focus {
 }
 
 /* navbar */
+.navbar.fixed-top {
+  background-color: #e8e1fb;
+}
 .navbar .navbar-toggler {
   border: none;
   color: black;
