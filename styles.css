@@ -7,9 +7,9 @@
   padding-top: 32px;
   padding-bottom: 40px;
 }
-.intro-block im {
-  width: 156px;
-  height: 156px;
+.intro-block img {
+  width: 176px;
+  height: 176px;
 }
 @media (min-width: 576px) {
   .intro-block img {
@@ -19,8 +19,14 @@
 }
 @media (min-width: 768px) {
   .intro-block img {
-    width: 156px;
-    height: 156px;
+    width: 176px;
+    height: 176px;
+  }
+}
+@media (min-width: 992px) {
+  .intro-block img {
+    width: 255px;
+    height: 255px;
   }
 }
 .intro-block h1 {
@@ -53,6 +59,9 @@
   background-color: #4a4a4a;
   border-color: #4a4a4a;
   padding: 6px 48px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
 }
 .read-case-study:hover,
 .read-case-study:focus {
