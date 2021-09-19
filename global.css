@@ -52,9 +52,6 @@ h5 {
   font-weight: 400;
 }
 
-@media (min-width: 992px) {
-}
-
 a {
   color: black;
 }
@@ -90,6 +87,32 @@ a:focus {
   display: flex;
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 45px;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+  .navbar-collapse .navbar-nav {
+    background-color: #e8e1fb;
+  }
+  .navbar-collapse.collapsing {
+    background-color: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    height: auto;
+  }
+}
+
 .navbar-nav .nav-link {
   padding: 8px 0;
   margin: 0 0 8px 24px;
@@ -101,6 +124,9 @@ a:focus {
   width: max-content;
   letter-spacing: 0.05rem;
   line-height: 1rem;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 8px 0;
 }
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
