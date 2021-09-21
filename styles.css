@@ -1,5 +1,15 @@
-#home {
+#home header {
   background-color: #e8e1fb;
+}
+
+.navbar h5 {
+  font-family: "Grayscale", sans-serif;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .navbar h5 {
+    font-size: 26px;
+  }
 }
 
 .intro-block {
@@ -29,6 +39,7 @@
     height: 255px;
   }
 }
+
 .intro-block h1 {
   padding-top: 16px;
 }

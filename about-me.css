@@ -2,20 +2,14 @@
   background-color: #e8e1fb;
 }
 
-.about-block img {
+.about-block img#headshot {
   width: 156px;
   height: 156px;
 }
-@media (min-width: 576px) {
-  .about-block img {
-    width: 100%;
-    height: auto;
-  }
-}
 @media (min-width: 768px) {
-  .about-block img {
-    width: 156px;
-    height: 156px;
+  .about-block img#headshot {
+    width: 216px;
+    height: 216px;
   }
 }
 
