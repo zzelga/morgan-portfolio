@@ -72,6 +72,10 @@ a:focus {
   color: #5d08c8;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
+
 /* navbar */
 .navbar img {
   height: 18px;
