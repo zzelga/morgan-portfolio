@@ -79,6 +79,7 @@
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.05rem;
+  pointer-events: none;
 }
 .read-case-study:hover,
 .read-case-study:focus {

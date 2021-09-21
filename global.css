@@ -211,3 +211,11 @@ ul.footer-list {
   align-items: flex-start;
   margin-bottom: 0.5rem;
 }
+
+.footer-list li a {
+  pointer-events: none;
+}
+
+.footer-list li:last-child a {
+  pointer-events: inherit;
+}
