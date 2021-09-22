@@ -219,6 +219,7 @@ ul.footer-list {
   pointer-events: none;
 }
 
+.footer-list li:first-child a,
 .footer-list li:last-child a {
   pointer-events: inherit;
 }

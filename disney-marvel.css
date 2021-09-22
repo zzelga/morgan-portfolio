@@ -25,6 +25,12 @@
   border: 2px solid #444;
 }
 
+#disney-marvel hr {
+  background-color: #444;
+  height: 2px;
+  opacity: 1;
+}
+
 #user-interviews {
 }
 
@@ -39,4 +45,11 @@
 #design {
   background-color: #21242c;
   color: white;
+}
+
+ul {
+  margin-bottom: 1.5rem;
+}
+
+#view-more-work img {
 }
