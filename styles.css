@@ -50,6 +50,7 @@
 }
 .disney-marvel-block .container a.read-case-study {
   color: #e1eafb;
+  pointer-events: inherit;
 }
 .mean-street-tattoo-block .container {
   background-color: #e1fbf2;
