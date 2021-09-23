@@ -24,7 +24,7 @@ h1 {
 }
 @media (min-width: 992px) {
   h1 {
-    font-size: 36px;
+    font-size: 48px;
   }
 }
 
@@ -34,7 +34,7 @@ h2 {
 }
 @media (min-width: 992px) {
   h2 {
-    font-size: 28px;
+    font-size: 38px;
   }
 }
 
@@ -54,7 +54,7 @@ h4 {
 }
 @media (min-width: 992px) {
   h4 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
