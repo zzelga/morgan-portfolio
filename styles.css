@@ -90,7 +90,7 @@
 }
 
 #final-design {
-  background-color: black;
+  background-color: #121419;
   color: white;
 }
 
@@ -100,7 +100,6 @@
 .view-prototype {
   background-color: #262831;
   border-color: #4a4a4a;
-  padding: 6px 48px;
 }
 a#final-prototype {
   display: block;

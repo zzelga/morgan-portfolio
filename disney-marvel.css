@@ -15,11 +15,11 @@
 }
 
 #research {
-  background-color: black;
+  background-color: #121419;
   color: white;
 }
 
-#market-research {
+#market-research div.row div.row {
   background-color: #262831;
   border-radius: 12px;
   border: 2px solid #444;
