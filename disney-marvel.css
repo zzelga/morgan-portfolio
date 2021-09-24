@@ -19,10 +19,9 @@
   color: white;
 }
 
-#market-research div.row div.row {
-  background-color: #262831;
-  border-radius: 12px;
-  border: 2px solid #444;
+#market-research {
+  background-color: #121419;
+  color: white;
 }
 
 #disney-marvel hr {
@@ -32,9 +31,13 @@
 }
 
 #user-interviews {
+  background-color: #262831;
+  color: white;
 }
 
 #user-personas {
+  background-color: #121419;
+  color: white;
 }
 
 #define h2,
@@ -52,4 +55,11 @@ ul {
 }
 
 #view-more-work img {
+}
+
+#loFiWireframesCarousel .carousel-indicators button {
+  background-color: #0026ec;
+}
+#loFiWireframesCarousel h4 {
+  color: #0026ec;
 }
