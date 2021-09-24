@@ -50,7 +50,6 @@
 }
 .disney-marvel-block .container a.read-case-study {
   color: #e1eafb;
-  pointer-events: inherit;
 }
 .mean-street-tattoo-block .container {
   background-color: #e1fbf2;
@@ -58,6 +57,7 @@
 }
 .mean-street-tattoo-block .container a.read-case-study {
   color: #e1fbf2;
+  pointer-events: none;
 }
 .milda-block .container {
   background-color: #e8e1fb;
@@ -65,6 +65,7 @@
 }
 .milda-block .container a.read-case-study {
   color: #e8e1fb;
+  pointer-events: none;
 }
 
 .btn {
@@ -80,13 +81,16 @@
   font-size: 20px;
   font-weight: 900;
   letter-spacing: 0.05rem;
-  pointer-events: none;
 }
 .read-case-study:hover,
+.read-case-study:active,
 .read-case-study:focus {
   background-color: #5d08c8;
   border-color: #5d08c8;
   color: #e8e1fb !important;
+}
+.read-case-study:active:focus {
+  box-shadow: none;
 }
 
 #final-design {
@@ -106,10 +110,16 @@ a#final-prototype {
   height: 0;
 }
 .jump-to-prototype:hover,
+.jump-to-prototype:active,
 .jump-to-prototype:focus,
 .view-prototype:hover,
+.view-prototype:active,
 .view-prototype:focus {
   background-color: #5d08c8;
   border-color: #5d08c8;
   color: #e8e1fb !important;
+}
+.jump-to-prototype:active:focus,
+.view-prototype:active:focus {
+  box-shadow: none;
 }
