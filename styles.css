@@ -93,11 +93,6 @@
   box-shadow: none;
 }
 
-#final-design {
-  background-color: #121419;
-  color: white;
-}
-
 .jump-to-prototype {
   border: 2px solid #212529;
 }
@@ -122,4 +117,10 @@ a#final-prototype {
 .jump-to-prototype:active:focus,
 .view-prototype:active:focus {
   box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  .small-card .container {
+    height: 510px;
+  }
 }

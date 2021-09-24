@@ -64,8 +64,7 @@ ul {
   color: #0026ec;
 }
 
-@media (min-width: 992px) {
-  .small-card .container {
-    height: 540px;
-  }
+#final-design {
+  background-color: #121419;
+  color: white;
 }

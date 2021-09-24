@@ -10,11 +10,6 @@
   background-color: #e1fbf2;
 }
 
-#scope .container {
-  border: 2px solid black;
-  border-radius: 12px;
-}
-
 #research {
   background-color: #21211d;
   color: white;
@@ -24,12 +19,12 @@
   color: #dbbb6b;
 }
 
-#looking-at-the-analytics {
-  background-color: black;
-  border-radius: 12px;
-  border: 2px solid #dbbb6b;
+#scope hr {
+  background-color: #444;
+  height: 2px;
+  opacity: 1;
 }
-
+#research hr,
 #looking-at-the-analytics hr,
 #power-of-instagram hr,
 #validate hr,
@@ -40,7 +35,7 @@
   opacity: 1;
 }
 
-#ui-kit {
-  border-radius: 12px;
-  border: 2px solid #dbbb6b;
+#final-design {
+  background-color: black;
+  color: white;
 }
