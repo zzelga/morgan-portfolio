@@ -63,3 +63,9 @@ ul {
 #loFiWireframesCarousel h4 {
   color: #0026ec;
 }
+
+@media (min-width: 992px) {
+  .small-card .container {
+    height: 540px;
+  }
+}
