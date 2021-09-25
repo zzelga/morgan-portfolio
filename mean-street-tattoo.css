@@ -10,13 +10,22 @@
   background-color: #e1fbf2;
 }
 
-#research {
+#research,
+#learning-from-potential-users,
+#power-of-instagram,
+#user-personas,
+#jade-deep-dive,
+#define,
+#task-flow,
+#information-architecture,
+#design,
+#creating-the-ui-kit,
+#failure-before-success,
+#putting-it-all-together,
+#changes-made,
+#validate {
   background-color: #21211d;
   color: white;
-}
-
-#research h2 {
-  color: #dbbb6b;
 }
 
 #scope hr {
@@ -25,7 +34,6 @@
   opacity: 1;
 }
 #research hr,
-#looking-at-the-analytics hr,
 #power-of-instagram hr,
 #validate hr,
 #define hr,
@@ -38,4 +46,9 @@
 #final-design {
   background-color: black;
   color: white;
+}
+
+#video {
+  width: 50vw;
+  max-width: 400px;
 }
