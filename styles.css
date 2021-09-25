@@ -57,7 +57,6 @@
 }
 .mean-street-tattoo-block .container a.read-case-study {
   color: #e1fbf2;
-  pointer-events: none;
 }
 .milda-block .container {
   background-color: #e8e1fb;
@@ -65,7 +64,6 @@
 }
 .milda-block .container a.read-case-study {
   color: #e8e1fb;
-  pointer-events: none;
 }
 
 .btn {
