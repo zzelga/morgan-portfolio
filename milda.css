@@ -1,0 +1,22 @@
+#milda header,
+#milda .navbar.fixed-top,
+#cover,
+#validate,
+#revisions {
+  background-color: #e8e1fb;
+}
+
+#milda hr {
+  background-color: #444;
+  height: 2px;
+  opacity: 1;
+}
+
+#research,
+#user-research,
+#group-affinity-mapping,
+#key-findings,
+#user-persona,
+#empathy-map {
+  background-color: #e1eafb;
+}

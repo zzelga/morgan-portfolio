@@ -27,11 +27,12 @@
 
     <link href="global.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
+    <link href="milda.css" rel="stylesheet" />
     <title>Morgan Nebiosini - UX Designer</title>
     <link rel="shortcut icon" href="images/favicons/favicon.ico" />
   </head>
 
-  <body class="d-flex flex-column h-100">
+  <body id="milda" class="d-flex flex-column h-100">
     <header>
       <nav class="navbar fixed-top navbar-expand-md pt-md-0">
         <div class="container">
@@ -96,6 +97,1106 @@
         </div>
       </nav>
     </header>
+
+    <main>
+      <div id="cover" class="py-5">
+        <div class="container">
+          <div
+            class="
+              row
+              flex-column-reverse flex-lg-row
+              justify-content-md-center
+              align-items-center
+            "
+          >
+            <div class="col-lg-8">
+              <img
+                class="d-block mx-auto img-fluid"
+                src="images/milda.png"
+                alt="Morgan Nebiosini Milda Case Study"
+              />
+            </div>
+            <div class="col-lg-4 d-flex flex-column align-self-start">
+              <h1 class="text-sm-start mb-3">Milda</h1>
+              <h5 class="text-sm-start mb-5">
+                A mobile app design for organizing cosmetic collections.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="scope" class="px-2 py-4">
+        <div class="container px-0 px-md-4 py-4">
+          <div class="row flex-lg-row align-items-center px-2">
+            <div class="col-12 mb-lg-4">
+              <h2 class="text-center">Overview</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci ut, temporibus ea sapiente illo ex, non corporis nihil
+                ipsa praesentium magnam velit provident beatae facilis ab, nisi
+                optio in dignissimos.
+              </p>
+              <hr />
+            </div>
+            <div class="col-lg-5 d-flex flex-column align-self-start">
+              <h4>Scope and Focus</h4>
+              <ul>
+                <li>
+                  To create a makeup app focused on the organization of cosmetic
+                  collections
+                </li>
+                <li>To help users avoid purchasing duplicate items</li>
+                <li>To help users be aware of product expiration dates</li>
+              </ul>
+              <h4>Project Background</h4>
+              <p class="mt-4 mt-lg-0">
+                The tracking and organization of cosmetics with a friend who is
+                a Product Manager. Our primary assumption was that users often
+                forget what makeup they've already purchased, leading to
+                duplicate purchases. We also discussed product expiration dates
+                and users not knowing when an item is no longer safe to use.
+                Together, we set out to collaborate on creating an app to solve
+                these problems.
+              </p>
+              <h4 class="mt-4">Design Goals and Objectives</h4>
+              <ul>
+                <li>
+                  Ease of use in inputting the user's current makeup collection
+                  into the app
+                </li>
+                <li>Notifying the user if an item is about to expire</li>
+                <li>
+                  Allowing the user to easily see what makeup products they
+                  currently own
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-5 offset-lg-2 d-flex flex-column align-self-start"
+            >
+              <h4 class="mt-2 mt-lg-0">Key Features</h4>
+              <ul>
+                <li>Uploading and categorizing makeup collections</li>
+                <li>
+                  Notifying the user of expiration dates for their cosmetic
+                  items
+                </li>
+              </ul>
+              <h4 class="mt-4">Team</h4>
+              <p>UX/UI Research and Design - Morgan Nebiosini</p>
+              <p>Product Manager - Alex J.</p>
+              <h4 class="mt-4">Project Duration</h4>
+              <p>July - August 2021</p>
+            </div>
+            <div class="d-grid gap-2 col-12 col-md-6 col-lg-4 mx-auto mt-3">
+              <a
+                href="#final-prototype"
+                class="btn btn-outline-dark jump-to-prototype"
+                >Jump to Final Prototype</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="research" class="px-2 py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-center py-2">Research</h2>
+              <hr />
+              <h3 class="mt-4">Market Research</h3>
+              <p>
+                The design of video game inventory systems inspired how I wanted
+                to display information within the Milda app. I began by
+                collecting reference images of several video games whose
+                inventory systems I've enjoyed using. I also referenced existing
+                inventory apps to see what sort of design patterns were commonly
+                used.
+              </p>
+            </div>
+            <div class="col-md-2">
+              <a class="lightbox-link" href="#market-research-postknight">
+                <img
+                  class="img-fluid"
+                  src="images/milda/market-research-postknight.png"
+                  alt="Milda Case Study Market Research Postknight"
+                />
+              </a>
+              <p class="detail">
+                Postknight is a RPG mobile app that does a great job at visually
+                displaying important information in an inventory system.
+              </p>
+              <a id="market-research-postknight" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/market-research-postknight.png');
+                  "
+                ></span>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a class="lightbox-link" href="#market-research-stardew-valley">
+                <img
+                  class="img-fluid"
+                  src="images/milda/market-research-stardew-valley.png"
+                  alt="Milda Case Study Market Research Stardew Valley"
+                />
+              </a>
+              <p class="detail">
+                Stardew Valley is a simulation RPG. Its inventory system
+                displays information about the player's current stats and items.
+              </p>
+              <a id="market-research-stardew-valley" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/market-research-stardew-valley.png');
+                  "
+                ></span>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a class="lightbox-link" href="#market-research-my-fitness-pal">
+                <img
+                  class="img-fluid"
+                  src="images/milda/market-research-my-fitness-pal.png"
+                  alt="Milda Case Study Market Research My Fitness Pal"
+                />
+              </a>
+              <p class="detail">
+                My Fitness Pal is a mobile app that allows the user to track
+                data about their meal consumption. The flow in this was
+                referenced to learn how a would use add information into such a
+                system.
+              </p>
+              <a id="market-research-my-fitness-pal" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/market-research-my-fitness-pal.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="user-research" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <h3>User Research</h3>
+              <p>
+                The Product Manager and I wanted to find out if there were a
+                large number of people that experienced frustration in dealing
+                with their cosmetic inventories. The two of us met to discuss
+                our initial plans for this research, and then jointly conducted
+                several one-on-one interviews. The rest of the interviews past
+                this point were conducted solely by me.
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <h4 class="mt-4">What we wanted to learn</h4>
+              <ul>
+                <li>
+                  Confirm whether users have problems with remembering what
+                  products they own
+                </li>
+                <li>Confirm whether users misplace their products</li>
+                <li>
+                  Confirm whether users are aware of the expiration dates of
+                  their makeup
+                </li>
+                <li>
+                  Confirm whether users felt or noticed they were spending more
+                  than they would like on cosmetic purchases due to the above,
+                  ie. duplicate purchases due to not remembering what they
+                  already owned or due to misplaced or expired makeup
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="group-affinity-mapping" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <h3>Group Affinity Mapping</h3>
+              <p>
+                I lead a group affinity mapping activity, where the Product
+                Manager and I looked over the initial data we had collected. It
+                was helpful to have another person's feedback when arranging the
+                post-its into groups.
+              </p>
+              <a class="lightbox-link" href="#affinity-map">
+                <img
+                  class="img-fluid"
+                  src="images/milda/affinity-map.png"
+                  alt="Milda Case Study Market Research Postknight"
+                />
+              </a>
+              <a id="affinity-map" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/affinity-map.png')"
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <h4 class="mt-4">What we learned</h4>
+              <ul>
+                <li>
+                  Users often forgot to use items they had stored in drawers.
+                  They didn't forget the items they were using every day.
+                </li>
+                <li>
+                  Users were not misplacing items. However, two users reported
+                  forgetting about some of the eyeshadow palettes they owned.
+                </li>
+                <li>
+                  Users weren't forgetting where they were storing items, and
+                  had a general idea of what they owned.
+                </li>
+                <li>
+                  Users reported wanting to use an item up before getting rid of
+                  it. However, this wouldn't prevent them buying additional
+                  similar products.
+                </li>
+                <li>
+                  Most users expressed guilt about buying an item and not using
+                  it.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4 class="mt-4">Findings from the user surveys</h4>
+              <ul>
+                <li>
+                  75% of people who participated in the survey were between 24
+                  to 34 years of age
+                </li>
+                <li>100% used she/her pronouns and identified as female</li>
+                <li>43% spent $250 or more on cosmetics per year</li>
+                <li>
+                  73% reported forgetting to make use of cosmetics they already
+                  owned
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="key-findings" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <h3>Key Findings</h3>
+              <p>
+                All users knew that their cosmetic products have expiration
+                dates, but would keep items well past that date if there was
+                still product left in the containers. Users would most often
+                keep items such as foundation and eyeshadows for years.
+              </p>
+              <p>
+                Many users were using their products until the containers were
+                empty, as they valued the money they had spent on the item, even
+                if they didn't use it daily, because they didn't want it to feel
+                like a wasted purchase.
+              </p>
+              <p>
+                All surveyed users reported forgetting about some of the items
+                they owned, with 80% of them reporting not making full use of
+                some items.
+              </p>
+            </div>
+            <div class="col-lg-8">
+              <p>
+                All users had a storage system for their cosmetics, with
+                collections broken up into several common groupings:
+              </p>
+              <ul>
+                <li>travel items (in a small bag that is inside a handbag)</li>
+                <li>
+                  daily items that are either left out on top of a counter or
+                  stored in a mid-sized pouch
+                </li>
+                <li>
+                  other items they didn't often use, which were stored out of
+                  sign in drawers or bags they didn't access often
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="user-persona" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col">
+              <h3>User Persona</h3>
+              <p>
+                Based on the research finding, I created a persona named Molly.
+              </p>
+              <a class="lightbox-link" href="#persona-molly">
+                <img
+                  class="w-100"
+                  src="images/milda/persona-molly.png"
+                  alt="Milda Case Study Persona Molly"
+                />
+              </a>
+              <a id="persona-molly" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/persona-molly.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="empathy-map" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col">
+              <h3>
+                A deeper dive into Molly's thought process about her cosmetics
+                collection
+              </h3>
+              <p>
+                I created an empathy map for Molly to better understand her
+                feelings and interactions with her makeup routine.
+              </p>
+              <a class="lightbox-link" href="#empathy-map">
+                <img
+                  class="w-100"
+                  src="images/milda/empathy-map.png"
+                  alt="Milda Case Study Empathy Map"
+                />
+              </a>
+              <a id="empathy-map" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/empathy-map.png')"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="define-and-design" class="px-2 py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-center pb-2">Define & Design</h2>
+              <hr />
+              <h3 class="mt-4">User Journey</h3>
+              <p>
+                I created a user journey for Molly, showing her taking the happy
+                path through the app, to work out the correct user flow.
+              </p>
+              <a class="lightbox-link" href="#user-journey">
+                <img
+                  class="w-100"
+                  src="images/milda/user-journey.png"
+                  alt="Milda Case Study User Journey"
+                />
+              </a>
+              <a id="user-journey" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/user-journey.png')"
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="mt-4">Branding</h4>
+              <p>
+                I created a mood board for the app after discussing with the
+                Product Manager what sort of feelings we wanted to evoke. We
+                decided on a relaxing, spa-like feeling.
+              </p>
+              <a class="lightbox-link" href="#moodboard">
+                <img
+                  class="w-100"
+                  src="images/milda/moodboard.png"
+                  alt="Milda Case Study Moodboard"
+                />
+              </a>
+              <a id="moodboard" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/moodboard.png')"
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="mt-4">Initial Logos</h4>
+              <p>
+                Inspired by the Goddesss of love and freedom,
+                <strong>Milda</strong>, we decided to name our app after her. I
+                created these logos for the brand shortly after.
+              </p>
+              <a class="lightbox-link" href="#logos">
+                <img
+                  class="w-100"
+                  src="images/milda/logos.png"
+                  alt="Milda Case Study Logos"
+                />
+              </a>
+              <a id="logos" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/logos.png')"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="wireframes" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <h3>Wireframes</h3>
+              <p>
+                I created several different wireframes for this project. By this
+                time, the Product Manager and I were meeting once a week to
+                discuss the progress on the app design, and any pain points I
+                had run into. I made wireframe adjustments along the way as we
+                discussed the issues together.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <a class="lightbox-link" href="#wireframes-home-page">
+                <img
+                  class="w-100"
+                  src="images/milda/wireframes-home-page.png"
+                  alt="Milda Case Study Wireframes Home Page"
+                />
+              </a>
+              <p class="detail">Home page - showing different collections</p>
+              <a id="wireframes-home-page" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/wireframes-home-page.png');
+                  "
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a class="lightbox-link" href="#wireframes-collection-page">
+                <img
+                  class="w-100"
+                  src="images/milda/wireframes-collection-page.png"
+                  alt="Milda Case Study Wireframes Collection Page"
+                />
+              </a>
+              <p class="detail">
+                Collection page - showing individual products
+              </p>
+              <a id="wireframes-collection-page" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/wireframes-collection-page.png');
+                  "
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a class="lightbox-link" href="#wireframes-add-item">
+                <img
+                  class="w-100"
+                  src="images/milda/wireframes-add-item.png"
+                  alt="Milda Case Study Add Item Page"
+                />
+              </a>
+              <p class="detail">
+                Add item - showing how a user would add new items
+              </p>
+              <a id="wireframes-add-item" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/wireframes-add-item.png');
+                  "
+                ></span>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a class="lightbox-link" href="#wireframes-product-page">
+                <img
+                  class="w-100"
+                  src="images/milda/wireframes-product-page.png"
+                  alt="Milda Case Study Product Page"
+                />
+              </a>
+              <p class="detail">
+                Product page - showing an item's details as entered by the user
+              </p>
+              <a id="wireframes-product-page" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/wireframes-product-page.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="redoing-the-branding" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>Redoing the Branding</h3>
+              <p>
+                As the wireframes developed, so did the UI and branding of the
+                product. I adjusted the logo, colors, and gradient to provide
+                the user with the best look possible.
+              </p>
+              <p>
+                The brand logo changed to become more clean, and the light blue
+                color was chosen due to how well it would contrast against the
+                pale yellow background.
+              </p>
+              <p>
+                Color and type were updated to keep the design looking clean and
+                spa-like, to better reflect the earlier moodboard.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <a class="lightbox-link" href="#ui-kit">
+                <img
+                  class="w-100"
+                  src="images/milda/ui-kit.png"
+                  alt="Milda Case Study UI Kit"
+                />
+              </a>
+              <a id="ui-kit" class="lightbox" href="#!">
+                <span
+                  style="background-image: url('images/milda/ui-kit.png')"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hi-fi-design" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <h3>Hi-Fi Design</h3>
+              <p>Each time I obtained feedback, I iterated on my designs.</p>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="row">
+                <div class="col-6">
+                  <a class="lightbox-link" href="#hi-fi-design-login-screen">
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-login-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a id="hi-fi-design-login-screen" class="lightbox" href="#!">
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-login-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    class="lightbox-link"
+                    href="#hi-fi-design-collection-overview-screen"
+                  >
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-collection-overview-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-collection-overview-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-collection-overview-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <p class="detail mt-4">
+                  <strong>Login Screen</strong> - we discovered this would be
+                  needed to create a profile for the user.
+                </p>
+                <p class="detail">
+                  <strong>Collection Overview Screen</strong> - this would serve
+                  as the central hub of the app, from where a user could add new
+                  items and collections, navigate to existing collections, and
+                  see expiration warnings
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="row">
+                <div class="col-6">
+                  <a class="lightbox-link" href="#hi-fi-design-add-item-screen">
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-add-item-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-add-item-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-add-item-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    class="lightbox-link"
+                    href="#hi-fi-design-add-item-input-screen"
+                  >
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-add-item-input-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-add-item-input-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-add-item-input-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <p class="detail mt-4">
+                  <strong>Add Item Screen</strong> - a user would need to enter
+                  information about their products into the app, so it was
+                  important to make this process user friendly.
+                </p>
+                <p class="detail">
+                  <strong>Add Item Screen with Input</strong> - showing how a
+                  user would add a product's name.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="row">
+                <div class="col-6">
+                  <a class="lightbox-link" href="#hi-fi-design-brand-screen">
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-brand-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a id="hi-fi-design-brand-screen" class="lightbox" href="#!">
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-brand-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    class="lightbox-link"
+                    href="#hi-fi-design-tarte-blush-screen"
+                  >
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-tarte-blush-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-tarte-blush-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-tarte-blush-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <p class="detail mt-4">
+                  <strong>Brand Screen</strong> - a user could either search for
+                  an existing brand or add a new one to the app.
+                </p>
+                <p class="detail">
+                  <strong>Tarte Blush Screen</strong> - How an item that is
+                  expiring soon would look to the user.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <div class="row">
+                <div class="col-6">
+                  <a
+                    class="lightbox-link"
+                    href="#hi-fi-design-delete-modal-screen"
+                  >
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-delete-modal-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-delete-modal-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-delete-modal-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a
+                    class="lightbox-link"
+                    href="#hi-fi-design-daily-items-screen"
+                  >
+                    <img
+                      class="w-100"
+                      src="images/milda/hi-fi-design-daily-items-screen.png"
+                      alt="Milda Case Study High Fidelity"
+                    />
+                  </a>
+                  <a
+                    id="hi-fi-design-daily-items-screen"
+                    class="lightbox"
+                    href="#!"
+                  >
+                    <span
+                      style="
+                        background-image: url('images/milda/hi-fi-design-daily-items-screen.png');
+                      "
+                    ></span>
+                  </a>
+                </div>
+                <p class="detail mt-4">
+                  <strong>Delete Modal</strong> - How a user would delete an
+                  item.
+                </p>
+                <p class="detail">
+                  <strong>Daily Items Overview</strong> - How all the items in a
+                  given collection would be displayed to the user.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="validate" class="px-2 py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-center py-2">Validate</h2>
+              <hr />
+              <h3 class="mt-4">Testing with our users</h3>
+              <p>I met with five users over three days.</p>
+              <p>
+                All users felt confused by the expiration alert feature; they
+                expressed being unsure about how many items were expiring per
+                category.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <h4 class="mt-4">What I learned:</h4>
+              <ul>
+                <li>All users struggled with the keyboard buttons.</li>
+                <li>
+                  Some users expressed confusion over the naming of the category
+                  fields <strong>Product Type</strong> and
+                  <strong>Product Name</strong>.
+                </li>
+                <li>
+                  Four users were uncertain about the wording on the app's home
+                  page, as well as the text on the home button.
+                </li>
+                <li>
+                  Two users inquired about how to back out of the presented
+                  modal after clicking the delete button.
+                </li>
+                <li>
+                  One user requested the ability to duplicate an existing item
+                  entry, for the use case where they've purchased an existing
+                  item in a different color.
+                </li>
+                <li>
+                  One user suggested being able to share items with friends, or
+                  making individual profiles for others in the household.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="revisions" class="px-2 py-4">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>The Revisions I Made:</h3>
+              <h4 class="mt-4">Home Page</h4>
+              <ul>
+                <li>
+                  I changed the header text to Home, so users would more clearly
+                  understand that they were on the home page of the app.
+                </li>
+                <li>
+                  I added back in a Profile Image and Name, to allow for
+                  different profiles and account sharing through a potential
+                  future update.
+                </li>
+                <li>
+                  I left-aligned the stats of the user's collection. This would
+                  make it easier for the user to scan this information.
+                </li>
+                <li>
+                  I added the quantity of expiring items directly on the
+                  collection cards. This would more clearly help the user see
+                  how many of the items in a collection were affected.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <a class="lightbox-link" href="#revisions-home-page">
+                <img
+                  class="w-100"
+                  src="images/milda/revisions-home-page.png"
+                  alt="Milda Case Study Revisions Home Page"
+                />
+              </a>
+              <a id="revisions-home-page" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/revisions-home-page.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Delete Modal</h4>
+              <ul>
+                <li>
+                  I added a cancel button below the existing delete item
+                  confirmation button. This mirrors the design language used by
+                  Apple's iOS software, and helps prevent accidental item
+                  deletions.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <a class="lightbox-link" href="#revisions-delete-modal">
+                <img
+                  class="w-100"
+                  src="images/milda/revisions-delete-modal.png"
+                  alt="Milda Case Study Revisions Delete Modal"
+                />
+              </a>
+              <a id="revisions-delete-modal" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/revisions-delete-modal.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Keyboards</h4>
+              <ul>
+                <li>
+                  Users were having trouble closing the initial version of the
+                  keyboard, so I added a confirm button.
+                </li>
+                <li>
+                  I also made teh up and down buttons grouped and left-aligned,
+                  which mirrors Apple's iOS design.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <a class="lightbox-link" href="#revisions-keyboard">
+                <img
+                  class="w-100"
+                  src="images/milda/revisions-keyboard.png"
+                  alt="Milda Case Study Revisions Keyboard"
+                />
+              </a>
+              <a id="revisions-keyboard" class="lightbox" href="#!">
+                <span
+                  style="
+                    background-image: url('images/milda/revisions-keyboard.png');
+                  "
+                ></span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Add Item Workflow</h4>
+              <ul>
+                <li>
+                  I changed the category field <strong>Product Name</strong> to
+                  <strong>Name</strong>, to help users differentiate between the
+                  fields <strong>Product Type</strong> and
+                  <strong>Name</strong>.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a id="final-prototype">&nbsp;</a>
+
+      <div id="final-design" class="px-2 py-4">
+        <div class="container">
+          <div class="row">
+            <div class="text-center d-flex flex-column align-items-center">
+              <h2 class="mb-4">Final Design</h2>
+              <a
+                href=""
+                target="_blank"
+                class="view-prototype btn btn-primary mb-4"
+                >View Prototype In Figma</a
+              >
+              <img
+                class="d-block img-fluid"
+                src="images/milda/milda-final-playthrough-placeholder.png"
+                alt="Morgan Nebiosini Milda Case Study Video Final Playthrough Placeholder"
+              />
+              <!-- <video id="video" class="mx-auto" controls>
+                <source
+                  src="images/mean-street-tattoo/mean-street-tattoo-final-playthrough.mp4"
+                  type="video/mp4"
+                />
+              </video> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="view-more-work" class="py-4 py-sm-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center mb-4">View More Work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="mean-street-tattoo-block small-card px-2">
+                <div class="d-flex flex-column container px-0 px-md-4 py-4">
+                  <div class="row flex-grow-1 px-2">
+                    <div class="col-12">
+                      <div class="pb-2 pb-sm-3 pb-lg-0">
+                        <img
+                          class="d-block img-fluid"
+                          src="images/mean-street-tattoo-small-card.jpg"
+                          alt="Morgan Nebiosini Mean Street Tattoo Design Case Study"
+                        />
+                      </div>
+                      <div class="d-flex flex-column align-items-center">
+                        <h3 class="text-center text-md-start my-sm-3">
+                          Mean Street Tattoo
+                        </h3>
+                        <h5 class="text-center text-md-start mb-4">
+                          A responsive website design for a tattoo shop, where
+                          the artists can showcase their work and allow their
+                          clients to book appointments.
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row d-flex flex-column align-items-center px-2">
+                    <div class="d-flex flex-column align-items-center">
+                      <a
+                        href="/mean-street-tattoo.html"
+                        role="button"
+                        class="btn btn-primary fs-4 read-case-study fw-bold"
+                        >Read Case Study</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="disney-marvel-block small-card px-2 pt-4 pt-lg-0">
+                <div class="d-flex flex-column container px-0 px-md-4 py-4">
+                  <div class="row flex-grow-1 px-2">
+                    <div class="col-12">
+                      <div class="pb-2 pb-sm-3 pb-lg-0">
+                        <img
+                          class="d-block img-fluid"
+                          src="images/disney-marvel-small-card.jpg"
+                          alt="Morgan Nebiosini Disney+ Design Case Study"
+                        />
+                      </div>
+                      <div class="d-flex flex-column align-items-center">
+                        <h3 class="text-center text-md-start my-sm-3">
+                          Disney+ and Marvel
+                        </h3>
+                        <h5 class="text-center text-md-start mb-4">
+                          A design for integrating Marvel Unlimited into the
+                          Disney+ streaming service.
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row d-flex flex-column align-items-center px-2">
+                    <div class="d-flex flex-column align-items-center">
+                      <a
+                        href="/disney-marvel.html"
+                        role="button"
+                        class="btn btn-primary fs-4 read-case-study fw-bold"
+                        >Read Case Study</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer class="mt-auto">
       <div class="container">
