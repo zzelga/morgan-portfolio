@@ -20,3 +20,13 @@
 #persona-empathy-map {
   background-color: #e1eafb;
 }
+
+#final-design {
+  background-color: black;
+  color: white;
+}
+
+#video {
+  width: 50vw;
+  max-width: 400px;
+}
