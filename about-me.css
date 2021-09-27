@@ -13,15 +13,22 @@
   }
 }
 
-.my-story-block .container div.row div {
+.my-story-block .container div.row div,
+.contact-me-block .container div.row div {
   background-color: #e1eafb;
   border-radius: 12px;
 }
 
-.contact-me-block .container div.row div {
+.personal-artwork .container div.row div {
+  background-color: #e8e1fb;
+  border-radius: 12px;
+}
+
+.currently-reading .container div.row div {
   background-color: #e1fbf2;
   border-radius: 12px;
 }
+
 .contact-me-block .container a.read-case-study {
   color: #e1fbf2;
 }
