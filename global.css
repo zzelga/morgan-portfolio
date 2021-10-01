@@ -188,8 +188,9 @@ li:last-child {
 .cartoon-image img {
   width: auto;
   height: auto;
-  margin-bottom: -75px;
+  margin-bottom: -68px;
   z-index: -10;
+  max-width: 254px;
 }
 
 footer .footer {
@@ -210,6 +211,9 @@ footer .footer {
 }
 .social-links a:last-child {
   padding-right: 0;
+}
+.social-links img {
+  width: 38px;
 }
 
 ul.footer-list {

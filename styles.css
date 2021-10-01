@@ -19,7 +19,7 @@
 }
 .intro-block img {
   width: 176px;
-  height: 176px;
+  height: auto;
 }
 @media (min-width: 576px) {
   .intro-block img {
@@ -30,13 +30,13 @@
 @media (min-width: 768px) {
   .intro-block img {
     width: 176px;
-    height: 176px;
+    height: auto;
   }
 }
 @media (min-width: 992px) {
   .intro-block img {
     width: 255px;
-    height: 255px;
+    height: auto;
   }
 }
 
