@@ -32,6 +32,7 @@ h1 {
 h2 {
   font-size: 28px;
   font-weight: 700;
+  letter-spacing: 0.05rem;
 }
 @media (min-width: 992px) {
   h2 {
