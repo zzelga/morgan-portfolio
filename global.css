@@ -86,11 +86,11 @@ a:focus {
 
 /* navbar */
 .navbar img {
-  height: 18px;
+  height: 32px;
 }
 @media (min-width: 768px) {
   .navbar img {
-    height: 20px;
+    height: 36px;
   }
 }
 .navbar.fixed-top {
