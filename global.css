@@ -90,7 +90,7 @@ a:focus {
 }
 @media (min-width: 768px) {
   .navbar img {
-    height: 48px;
+    height: 60px;
   }
 }
 .navbar.fixed-top {
