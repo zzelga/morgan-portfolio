@@ -42,6 +42,10 @@
   color: black;
 }
 
+#summary {
+  background-color: #e1fbf2;
+}
+
 #scope hr {
   background-color: #444;
   height: 2px;
