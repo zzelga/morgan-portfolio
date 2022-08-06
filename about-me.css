@@ -13,7 +13,10 @@
   }
 }
 
-.my-story-block .container div.row div,
+.my-story-block .container div.row div {
+  background-color: #e8e1fb;
+  border-radius: 12px;
+}
 .contact-me-block .container div.row div {
   background-color: #e1eafb;
   border-radius: 12px;
@@ -24,7 +27,7 @@
   border-radius: 12px;
 }
 
-.currently-reading .container div.row div {
+.my-free-time .container div.row div {
   background-color: #e1fbf2;
   border-radius: 12px;
 }
