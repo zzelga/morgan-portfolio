@@ -1,5 +1,5 @@
 # Morgan Nebiosini's Portfolio Website
 
-UX/UI Design
+Product Design
 
 https://morgannebiosini.com/
